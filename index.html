@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidhya's Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=IBM+Plex+Mono:ital@1&family=Libre+Baskerville&family=Style+Script&display=swap" rel="stylesheet">
+
+    <style>
+       
+        *{
+           margin: 0;
+        }
+        .container{
+            border: 2px solid red;
+            background-color: rgb(230, 226, 221);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+        }
+        .heading{
+            margin-top: 30px;
+            background-color: red;
+            padding: 10px;
+            width: 90%;
+            border: 5px solid purple;
+            border-radius: 30px;
+            text-align: center;
+            letter-spacing: 3px;
+            word-spacing: 5px;
+            color: white;
+            font-family: 'Libre Baskerville', serif; 
+        }
+        img{
+            width: 100%;
+            /* height: 50%; */
+            border-radius: 10px;
+        }
+        .img-1{
+            margin-top: 50px;
+        }
+        .para{
+            letter-spacing: 1px;
+            word-spacing: 4px;
+            font-size: 1.5rem;
+            width: 85%;
+            margin-top: 20px;
+            
+        }    
+        span{
+            color: blue;
+        }
+        span:hover{
+            color: red;
+            cursor: pointer;
+        }
+        footer{
+            font-family: 'Caveat', cursive;
+            font-family: 'IBM Plex Mono', monospace;
+            font-family: 'Libre Baskerville', serif;
+            font-family: 'Style Script', cursive;  
+            font-weight: bold;
+            font-size: 1rem;
+            color: purple;
+        }
+        footer:hover{
+            cursor: pointer;
+            
+        }
+        .img-2{
+            margin-top: 40px;
+        }
+    
+            
+        
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="heading">
+        <h1>OER - OPEN EDUCATIONAL RESOURCES</h1>
+    </div>
+    
+    <div class="align img-1">
+        <img src="IMG-1.jpg" alt="OER Image">
+    </div>
+
+    <div class="align para">
+        
+            <span>Open Educational Resources (OER)</span>  are learning, teaching and research materials in any format and medium that reside in the public domain or are under copyright that have been released under an open license, that permit no-cost access, re-use, re-purpose, adaptation and redistribution by others.
+        
+
+    </div>
+    <div class="align img-2">
+        <img src="IMG-2.jpg" alt="Img 2">
+    </div>
+
+    <footer onclick="myFunction()">
+        -By Vidhya
+    </footer>
+</div> 
+<script>
+   function myFunction(){
+    alert("Hello! This Website is created by Vidhya!")
+   }
+</script> 
+</body>
+</html>
